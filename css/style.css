@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 20px 0px 20px;
+}
+
+header {
+  background-color: snow;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+  font-family: "Permanent Marker", cursive;
+  height: 136px;
+}
+
+.nav__link {
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+}
+.nav__list {
+  text-align: center;
+}
+.nav__lista {
+  display: inline;
+  font-size: 22px;
+  text-align: center;
+  margin: 0px 15px 40px 15px;
+  padding: 4px;
+}
+
+.nav__link:hover {
+  transition: all 0.5s;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+body {
+  background-color: snow;
+  background-repeat: no-repeat;
+  font-family: "Permanent Marker", cursive;
+}
+.bread {
+  text-align: center;
+}
+h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 40px;
+  font-size: bold;
+  text-align: center;
+}
+p {
+  text-align: center;
+  color: dimgray;
+}
+
+.bread__img {
+  margin: 2rem;
+  padding: 2rem;
+  border: 2rem;
+  max-width: 300px;
+  padding: 0;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+  background-color: aliceblue;
+  border-radius: 12px;
+}
+.bread__img--index1 {
+  max-width: 300px;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.bread__img {
+  text-align: center;
+}
+
+.div__fotos {
+  text-align: center;
+}
+.div__fotos--img {
+  width: 600px;
+  height: 450px;
+  margin: 0;
+  padding: 0;
+  border: solid 1rem whitesmoke;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+}
+.div__historia {
+  text-align: center;
+}
+.div__historia--img {
+  width: 600px;
+  height: 450px;
+  margin: 0;
+  padding: 0;
+  border: solid 1rem whitesmoke;
+  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.45);
+}
+
+footer {
+  background-color: gray;
+  position: 100%;
+  max-width: 100%;
+  height: 300px;
+  color: rgba(2, 2, 2, 0);
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+.footer__div {
+  color: snow;
+  font-size: 17px;
+  text-align: center;
+}
+
+.contacto {
+  text-align: center;
+}
+.div__ubicacion {
+  text-align: center;
+}
+
+.footer__redes {
+  text-align: center;
+  cursor: pointer;
+}
+.description__img {
+  color: dimgray;
+}
+
+.index__description {
+  margin: 0px 200px 0px 200px;
+  text-align: justify;
+}
+.historia__description {
+  margin: 0px 200px 0px 200px;
+  text-align: justify;
+}
+.logo__index {
+  margin: 25px 0px 0px 0px;
+  padding: 0px;
+  border: 0px;
+  margin-left: 2rem;
+  position: relative;
+}
+.contacto {
+  position: relative;
+  width: 350px;
+  height: 480px;
+  text-align: center;
+  justify-content: center;
+  top: 60px;
+  right: 450px;
+  bottom: 60px;
+  left: 450px;
+}
+
+#txt__contacto {
+  resize: none;
+}
+.bread__buy {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 0px 0px 10px 10px;
+}
+.logo__carrito {
+  position: relative;
+  top: 0px;
+  right: 500px;
+  bottom: 0px;
+  left: 1050px;
+  text-align: right;
+  cursor: pointer;
+}
+.horario__atencion {
+  text-align: center;
+  background-color: black;
+  color: snow;
+  font-size: 20px;
+  height: 39px;
+  padding: 0.5rem;
+}
+.horario__titulo {
+  color: snow;
+  animation: flash;
+  animation-duration: 1s;
+}
+img {
+  max-width: 100%;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+.div__historia img {
+  animation: slideInLeft;
+  animation-duration: 0.8s;
+}
